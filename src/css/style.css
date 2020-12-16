@@ -735,4 +735,225 @@ button:focus {
   line-height: 53px;
   max-width: 1314px;
 }
+
+.connect {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #990CB0;
+}
+
+.connect-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 90px;
+}
+
+.connect-description {
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 53px;
+  max-width: 1145px;
+}
+
+.connect-info {
+  margin-top: 270px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+.form {
+  margin: auto;
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1590px;
+}
+
+.form-button {
+  background: -webkit-gradient(linear, left top, right top, from(#180D71), color-stop(78.27%, #770583));
+  background: linear-gradient(90deg, #180D71 0%, #770583 78.27%);
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  padding-top: 57px;
+  padding-bottom: 58px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.form-button:hover {
+  -webkit-box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  border: 1px solid #929292;
+  border-radius: 10px;
+  margin-bottom: 81px;
+  padding: 58px 51px 52px 51px;
+}
+
+.faq {
+  background-color: #E3E1E8;
+}
+
+.faq-content {
+  width: 100%;
+  border: 1px solid #990CB0;
+}
+
+.faq-link {
+  color: #990CB0;
+}
+
+.faq-card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 53px;
+  max-width: 1358px;
+}
+
+.faq-card-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 208px;
+  width: 1502px;
+  margin: auto;
+}
+
+.faq-card-text {
+  max-width: 1502px;
+  padding: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 43px;
+  margin-bottom: 55px;
+}
+
+.faq-card-up img {
+  margin-left: 70px;
+}
+
+.footer {
+  padding-top: 110px;
+  background: linear-gradient(89.88deg, #200D73 0.45%, #770583 99.87%);
+}
+
+.footer-up {
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 23px;
+  margin-top: 35px;
+  margin-bottom: 58px;
+}
+
+.footer-up:hover {
+  border: none;
+}
+
+.footer-content-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1310px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+.footer-content-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-content-title-sub {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 39px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.footer-content-title-item {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.footer-sub {
+  background: rgba(65, 65, 67, 0.55);
+  padding-top: 29px;
+  padding-bottom: 26px;
+}
+
+.footer-sub-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.footer-sub-text {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 32px;
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+.footer-sub-button {
+  background: #140E60;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 4px 60px 4px 60px;
+}
+
+.footer-sub-img {
+  margin-top: 8px;
+}
+
+.footer-sub-text span {
+  font-weight: 400;
+}
 /*# sourceMappingURL=style.css.map */
