@@ -28,6 +28,7 @@
             height: 39.27px
             width: 48px
             margin-bottom: 33.54px
+            z-index: 1
     &-social
         &-item img
             width: 100%
@@ -74,3 +75,68 @@
         &:hover
             outline: none
             filter: drop-shadow(0 6px 8px rgba(0,0,0,.25))
+    &-languages
+        font-family: 'Roboto', sans-serif
+        color: $white
+        font-weight: 400
+        font-size: 34px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        text-align: center
+        &-eng
+            margin-bottom: 20px
+        &-es
+.button
+    &-menu
+        background-color: transparent
+        margin-top: 10px
+.menu
+    &-window
+        
+        position: fixed
+        background-color: #ffffff
+        z-index: 100
+        top: 0
+        bottom: 0
+        height: 100vh
+        width: 100vw
+        top: -100vh
+        display: flex
+        justify-content: center
+        transition: 0.5s
+        &-active
+            background-color: #ffffff
+            transition: 0.5s
+            top: 0vh
+        &-content
+            display: flex
+            flex-direction: column
+            width: 100%
+        &-item
+            color: rgba(91, 10, 120, 1) !important
+            font-family: 'Roboto', sans-serif
+            font-weight: 500
+            font-size: 140px
+            line-height: 212px
+            margin-top: -50px
+            
+            &-cross
+                z-index: 10
+                margin-top: 113px
+                margin-right: 137px
+                text-align: right
+        &-social
+            margin-top: 64px
+            margin-bottom: 142px
+            display: flex
+            justify-content: center
+            
+            &-img
+                height: 48px
+                width: 48px
+                margin-right: 35px
+                margin-left: 35px
+.menu-window-social-img img
+    width: 100%
+    height: 100%
