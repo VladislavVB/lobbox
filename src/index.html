@@ -20,7 +20,7 @@
 <body>
   <header id="up" class="header">
     
-      <div class="menu-window ">
+      <div class="menu-window">
         <div class="menu-window-content">
           <a onclick="closeMenu()" class="menu-window-item-cross"><img src="img/header/cross.png" alt=""></a>
           <a href="#catalog" onclick="closeMenu()" class="menu-window-item text-center">Catalog</a>
@@ -43,7 +43,7 @@
               <a class="header-social-item"><img src="img/header/WhatsApp_black.png" alt=""></a>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-4 col-sm-2">
             <div class="row">
               <div class="col-6">
                 <button onclick="openMenu()" class="button button-menu"><img src="img/header/icon menu.png" alt=""></button>
@@ -59,8 +59,8 @@
         </div>
       </div>
       <div class="row header-content">
-        <div class="col-5"></div>
-        <div class="col-6">
+        <div class="col-0 col-sm-5"></div>
+        <div class="col-md-6">
           <div class="d-flex justify-content-center header-content-text">
             <div class="header-content-text-logo"><img src="img/header/logo up.png" alt=""></div>
             <div class="header-content-text-title">Your contactless future</div>
@@ -71,22 +71,22 @@
       </div>
       <div class="header-cards">
         <div class="row d-flex justify-content-end">
-          <div class="col-7">
-            <button class="header-card">All information in one place</button>
+          <div class="col-10 col-md-7 ">
+            <button class="header-card float-right">All information in one place</button>
           </div>
         </div>
         <div class="row d-flex justify-content-start">
-          <div class="col-7">
+          <div class="col-10 col-md-7">
             <button class="header-card">Share contacts with one touch</button>
           </div>
         </div>
         <div class="row d-flex justify-content-end">
-          <div class="col-7">
-            <button class="header-card">Made from durable material</button>
+          <div class="col-10 col-md-7">
+            <button class="header-card float-right">Made from durable material</button>
           </div>
         </div>
         <div class="row d-flex justify-content-start">
-          <div class="col-7">
+          <div class="col-10 col-md-7">
             <button class="header-card">Share contacts with one touch</button>
           </div>
         </div>
@@ -98,10 +98,10 @@
       <div class="advantage-content">
         <!-- 1 -->
         <div class="row d-flex justify-content-between align-items-center advantage-card">
-          <div class="col-4">
+          <div class="col-sm-4">
             <div class="advantage-card-img"><img src="img/advantage/1.png" alt=""></div>
           </div>
-          <div class="col-6">
+          <div class="col-sm-6">
             <div class="advantage-card-text">
               <div class="advantage-card-text-title">Attractive design</div>
               <div class="advantage-card-text-description">
@@ -116,7 +116,7 @@
         </div>
         <!-- 2 -->
         <div class="row d-flex justify-content-between align-items-center advantage-card">
-          <div class="col-6">
+          <div class="col-sm-6 order-sm-1 order-2">
             <div class="advantage-card-text-two">
               <div class="advantage-card-text-title">Plug NFC - Business card  constructor</div>
               <div class="advantage-card-text-description ">
@@ -128,16 +128,16 @@
               </div>
             </div>
           </div>
-          <div class="col-5">
+          <div class="col-sm-5 order-sm-2 order-1">
             <div class="advantage-card-img"><img src="img/advantage/2.png" alt=""></div>
           </div>
         </div>
         <!-- 3 -->
         <div class="row d-flex justify-content-between align-items-center advantage-card">
-          <div class="col-4">
+          <div class="col-sm-4">
             <div class="advantage-card-img"><img src="img/advantage/3.png" alt=""></div>
           </div>
-          <div class="col-6">
+          <div class="col-sm-6">
             <div class="advantage-card-text">
               <div class="advantage-card-text-title">Test now, pay later!</div>
               <div class="advantage-card-text-description text-center">
@@ -282,30 +282,30 @@
       <div class="d-flex justify-content-center">
         <div class="justify-content-center ">
           <div class="faq-card faq-card-one ">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">What smartphones are compatible with CF. Business Card? Do I need an app?</div>
-              <img onclick="openText1()" class="faq-plus-1" src="img/footer/Plusbutton.png" alt="">
+              <img onclick="openText('first')" class="faq-plus-first" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-1 ">
+            <div id="first" class="faq-card-text ">
               <p>Almost all smartphones with Android operating system older than 2014 are compatible with CF business card scanning. No special apps are required for Android devices. Typically, Android's nfc reader is located in the center of the back cover of the phone. Before use, you need to enable the nfc function. Scanning a QR code with a camera is also supported.</p>
               <p><span class="faq-link">IOS</span> - iPhone XS, XS Max, XR, 11, 11 Pro, 11 Pro Max, 12, 12 Pro, 12 Pro Max are compatible with CF Business Card and no special apps required. For these models, the nfc reader is located to the right of the rear camera. The QR code can be read through the smartphone camera.</p>
               <p>
               Earlier models of iPhone X, iPhone 8 (plus), iPhone 7 (plus), iPhone SE and iPhone 6S (plus) with 14 IOS installed can read the CF.card signal via the built-in NFC reader, which must be added to the control center. Also for these iPhone models (except SE and 6S), if 14 IOS is not installed, you can download a special application. A link to additional software is sent upon request. And iPhone 6, 5, 4, etc. support scanning a QR code, which also leads to an electronic business card, through a smartphone camera or special applications for scanning a QR code.</p>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
     <!-- 2 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class=" ">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">What information can be programmed into a smart business card?</div>
-                <img onclick="openText2()" class="faq-plus-2" src="img/footer/Plusbutton.png" alt="">
+              <img onclick="openText('second')" class="faq-plus-second" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-2 ">
+            <div id="second" class="faq-card-text ">
               <p><span class="faq-link">Contact information: name,</span> place of work, position, 2 phone numbers, 2 e-mail
                 <span class="faq-link">Links to external resources:</span>Links to your sites, news resources or any other social. network <br>
                 <span class="faq-link">Links to profiles on social networks:</span> Instagram, Facebook, VK, LinkedIn, YouTube, WhatsApp, Telegram, etc. <br>
@@ -320,13 +320,13 @@
     <!-- 3 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class=" ">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">Can I change my details?</div>
-                <img onclick="openText3()" src="img/footer/Plusbutton.png" alt="">
+                <img onclick="openText('three')" class="faq-plus-three" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-3">
+            <div id="three" class="faq-card-text">
               <p>Yes, each owner of a smart business card has access to a personal account, where you can change all information remotely and at any time</p>
             </div>
           </div>
@@ -336,13 +336,13 @@
     <!-- 4 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class="">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">What magic is used to transfer information to the phone? NFC!</div>
-                <img onclick="openText4()" src="img/footer/Plusbutton.png" alt="">
+                <img onclick="openText('four')" class="faq-plus-four" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-4">
+            <div id="four" class="faq-card-text">
               <p>It's all about the phone, which generates a magnetic field around itself, and when it hits, an induction current appears on the antenna of the business card. The current is collected in a capacitor and powers the microcircuit. A smart business card gives an answer to a reader (in particular, a phone) through the same antenna, transmitting the information recorded in the business card. This technology is called NFC (near field communication). Apple / Google Pay also works on the basis of NFC. Basically, you use this technology every day! And we rethought it a little and adapted it to business cards</p>
             </div>
           </div>
@@ -352,13 +352,13 @@
     <!-- 5 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class="">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">What are the production and delivery times for CF. business cards?</div>
-                <img onclick="openText5()" src="img/footer/Plusbutton.png" alt="">
+                <img onclick="openText('five')" class="faq-plus-five" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-5">
+            <div id="five" class="faq-card-text">
               <p>It's all about the phone, which generates a magnetic field around itself, and when it hits, an induction current appears on the antenna of the business card. The current is collected in a capacitor and powers the microcircuit. A smart business card gives an answer to a reader (in particular, a phone) through the same antenna, transmitting the information recorded in the business card. This technology is called NFC (near field communication). Apple / Google Pay also works on the basis of NFC. Basically, you use this technology every day! And we rethought it a little and adapted it to business cards</p>
             </div>
           </div>
@@ -368,13 +368,13 @@
     <!-- 6 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class="">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">What are the production and delivery times for CF. business cards?</div>
-                <img onclick="openText6()" src="img/footer/Plusbutton.png" alt="">
+                <img onclick="openText('sixth')" class="faq-plus-sixth" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-6">
+            <div id="sixth" class="faq-card-text">
               <p>The production of standard models usually takes up to 5 business days. The exact time is discussed with the manager individually when placing an order.</p>
               <p>It can take up to 7 business days to create a custom CF. business card from the moment the layout is approved by the designer.</p>
               <p>Standard delivery time is 2-3 days in Spain; 10-14 business days worldwide.</p>
@@ -386,13 +386,13 @@
     <!-- 7 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class="">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">Can the chip get demagnetized?</div>
-                <img onclick="openText7()" src="img/footer/Plusbutton.png" alt="">
+                <img onclick="openText('seventh')" class="faq-plus-seventh" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-7">
+            <div id="seventh" class="faq-card-text">
               <p>The manufacturer of our NFC chips gives an unlimited warranty for their chips, but if the chip suddenly gets demagnetized, we will make a new business card for you!</p>
             </div>
           </div>
@@ -402,13 +402,13 @@
     <!-- 8 -->
     <div class="faq-content">
       <div class="d-flex justify-content-center">
-        <div class="justify-content-center ">
+        <div class="">
           <div class="faq-card">
-            <div class="faq-card-up">
+            <div class="faq-card-up d-flex justify-content-between">
               <div class="faq-card-title">How else can I share my electronic profile?</div>
-                <img onclick="openText8()" src="img/footer/Plusbutton.png" alt="">
+                <img onclick="openText('eighth')" class="faq-plus-eighth" src="img/footer/Plusbutton.png" alt="">
             </div>
-            <div class="faq-card-text faq-card-text-8">
+            <div id="eighth" class="faq-card-text">
               <p>Our users can share their electronic profile via NFC, QR code, save to the Wallet app. You can also share your profile by sending a link to it on any social network / post it in the description, or using email / AirDrop / regular message</p>
             </div>
           </div>
@@ -420,8 +420,12 @@
     <div class="container-fluid">
       <div class="footer-content-up ">
         <div class="footer-content-up-img"><img src="img/footer/1.png" alt=""></div>
-        <div class="footer-content-up-img"><img src="img/footer/2.png" alt=""></div>
-        <div class="footer-content-up-img"><img src="img/footer/3.png" alt=""></div>
+        <div class="footer-content-up-img footer-content-up-img-social">
+          <a href=""><img src="img/footer/WhatsApp_black.png" alt=""></a>
+          <a href=""><img src="img/footer/Vector.png" alt=""></a>
+          <a href=""><img src="img/footer/Facebook_black.png" alt=""></a>
+        </div>
+        <div class="footer-content-up-img"><a href=""><img src="img/footer/3.png" alt=""></a></div>
         <div class="footer-content-up-img"><img src="img/footer/4.png" alt=""></div>
       </div>
     </div>
@@ -430,9 +434,9 @@
     <div class="container-fluid">
       <div class="footer-content text-center">
         <div class="footer-content-title">
-          <div class="footer-content-title-item">About</div>
-          <div class="footer-content-title-item">Catalog</div>
-          <div class="footer-content-title-item">FAQ</div>
+          <a class="footer-content-title-item">About</a>
+          <a class="footer-content-title-item">Catalog</a>
+          <a class="footer-content-title-item">FAQ</a>
         </div>
         <div class="footer-content-title-sub">© 2020 LOBBOX</div>
         <button class="footer-up"><a href="#up">Up <img src="img/footer/Up arrow.png" alt=""></a></button>
@@ -440,7 +444,7 @@
     </div>
     <div class="footer-sub d-flex justify-content-between">
       <div class="col-1"></div>
-      <div class="col-6 footer-sub-content">
+      <div class="col-md-10 col-lg-6 footer-sub-content">
         <div class="footer-sub-text">Test it now! 1 <span>month free</span> of charge</div>
         <button class="footer-sub-button">Create</button>
       </div>
