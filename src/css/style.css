@@ -371,6 +371,11 @@ a:hover {
   text-decoration: none;
 }
 
+.container-fluid {
+  max-width: 1920px;
+  margin: auto;
+}
+
 .header {
   background: url("../img/header/bg.png") top left/contain no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(9.77%, #03266A), color-stop(99.99%, #510A63), to(#6B0974));
   background: url("../img/header/bg.png") top left/contain no-repeat, linear-gradient(180deg, #03266A 9.77%, #510A63 99.99%, #6B0974 100%);
@@ -402,6 +407,7 @@ a:hover {
 }
 
 .header-menu {
+  z-index: 500;
   padding-top: 60px;
 }
 
@@ -516,6 +522,7 @@ a:hover {
 }
 
 .button-menu {
+  z-index: 100;
   background-color: transparent;
   margin-top: 10px;
 }
@@ -523,7 +530,7 @@ a:hover {
 .menu-window {
   position: fixed;
   background-color: #ffffff;
-  z-index: 100;
+  z-index: 200;
   top: 0;
   bottom: 0;
   height: 100vh;
@@ -960,6 +967,10 @@ a:hover {
   margin: auto;
 }
 
+.faq-card-up:hover {
+  cursor: pointer;
+}
+
 .faq-card-text {
   max-width: 1502px;
   padding: auto;
@@ -994,7 +1005,7 @@ a:hover {
   color: rgba(255, 255, 255, 0.89) !important;
   font-size: 30px;
   margin-top: 35px;
-  margin-bottom: 58px;
+  margin-bottom: 98px;
 }
 
 .footer-up:hover {
@@ -1047,9 +1058,12 @@ a:hover {
 }
 
 .footer-sub {
+  position: fixed;
   background: rgba(65, 65, 67, 0.55);
   padding-top: 29px;
   padding-bottom: 26px;
+  bottom: 0;
+  width: 100vw;
 }
 
 .footer-sub-content {
@@ -1532,6 +1546,12 @@ a:hover {
 }
 
 @media screen and (max-width: 400px) {
+  .header-content-text {
+    margin-top: -25px;
+  }
+  .header-content-text-logo {
+    margin-bottom: 70px;
+  }
   .catalog-card-img {
     height: 270px;
   }
