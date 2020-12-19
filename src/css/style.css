@@ -1262,6 +1262,168 @@ a:hover {
   width: 100%;
 }
 
+.product {
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+.product-card-descripton {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #929292;
+}
+
+.product-button-buy {
+  margin: 0;
+}
+
+.product-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 58px;
+  margin-top: -130px;
+}
+
+.product-description-text {
+  margin-top: 60px;
+}
+
+.product-title-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #990cb0;
+  font-size: 50px;
+}
+
+.product-description span {
+  color: #5b0a78;
+  font-weight: 400;
+}
+
+.create {
+  background: -webkit-gradient(linear, left top, right top, from(#190D71), to(#770583));
+  background: linear-gradient(90deg, #190D71 0%, #770583 100%);
+  padding-bottom: 50px;
+}
+
+.create-logo {
+  padding-top: 300px;
+  padding-bottom: 170px;
+}
+
+.create-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.create-input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #EFEFEF;
+  color: #EFEFEF;
+}
+
+.create-password {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #cfcece !important;
+  margin-bottom: 90px;
+}
+
+.create-button {
+  background-color: #D4D2FF;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #400a79;
+  width: 100%;
+  padding-top: 81px;
+  padding-bottom: 81px;
+}
+
+.create-button:hover {
+  -webkit-box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.create-now {
+  margin-top: 39px;
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.create-title {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 121px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.create-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 230px;
+  margin-bottom: 310px;
+}
+
+.create-button-choose {
+  width: 45%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  background-color: #D4D2FF;
+  border-radius: 10px;
+  color: #400a79;
+}
+
+.create-button-choose:hover {
+  -webkit-box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.create-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.89);
+  margin-bottom: 120px;
+}
+
+.create-qr {
+  height: 536px;
+  margin-bottom: 500px;
+}
+
+.create-now a {
+  color: #990CB0;
+}
+
+.create-logo img {
+  height: 100%;
+}
+
+.create-qr img {
+  height: 100%;
+}
+
 @media screen and (max-width: 1660px) {
   .header-card {
     font-size: 40px;
@@ -1523,6 +1685,54 @@ a:hover {
     margin-right: 50px;
     margin-top: 50px;
   }
+  .product-card-descripton {
+    font-size: 25px;
+  }
+  .product-description {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .product-title-description {
+    font-size: 25px;
+  }
+  .create-button {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+  }
+  .create-password {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .create-now {
+    font-size: 30px;
+  }
+  .create-logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .create {
+    padding-bottom: 400px;
+  }
+  .create-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .create-buttons {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .create-button-choose {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .create-description {
+    font-size: 30px;
+  }
+  .create-qr {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 730px) {
@@ -1698,6 +1908,32 @@ a:hover {
   }
   .catalog-link {
     line-height: 35px;
+  }
+  .product-card-descripton {
+    font-size: 18px;
+  }
+  .product-description {
+    font-size: 18px;
+  }
+  .product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .product-title-description {
+    font-size: 18px;
+  }
+  .create-logo {
+    height: 340px;
+  }
+  .create-qr {
+    height: 260px;
+    margin-bottom: 200px;
+  }
+  .create-button-choose {
+    font-size: 18px;
+  }
+  .create {
+    padding-bottom: 0;
   }
 }
 
