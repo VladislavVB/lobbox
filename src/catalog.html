@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hello, world!</title>
+  <!-- <script src="js/generateHeader.js" defer></script> -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <section id="catalog" class="catalog">
+    <div class="container-fluid">
+      <div class="catalog-content">
+        <div class="catalog-title text-center">Catalog</div>
+        <div class="catalog-links">
+          <a class="catalog-link" href="#everything">Everything </a>
+          <a onclick="onItemClick(0, event)" class="catalog-link catalog-link-active" href="#logo">Chip with our logo </a>
+          <a onclick="onItemClick(1, event)" class="catalog-link" href="#nfs">NFC sticker <br></a>
+          <a onclick="onItemClick(2, event)" class="catalog-link" href="#personal">Sticker with your personal design <br></a>
+          <a onclick="onItemClick(3, event)" class="catalog-link" href="#qrcode">Volumetric sticker with QR code</a>
+          <a onclick="onItemClick(4, event)" class="catalog-link" href="#qrlogo">Volumetric sticker with QR code and your logo</a>
+        </div>
+        <!-- 1 -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 ">
+            <div id="items-firstH" class="catalog-card catalog-card-active">
+              <div class="catalog-card-img center"><img src="img/catalog/1.png" alt=""></div>
+              <div class="catalog-card-title text-center">Chip with our logo</div>
+              <div class="catalog-card-price text-center">5 €</div>
+              <button class="catalog-card-detail">Detail</button>
+              <button class="catalog-card-buy">Buy</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 ">
+            <div id="items-secondH" class="catalog-card catalog-card-hiden">
+              <div class="catalog-card-img center"><img src="img/catalog/2.png" alt=""></div>
+              <div class="catalog-card-title text-center">NFC sticker</div>
+              <div class="catalog-card-price text-center">5 €</div>
+              <button class="catalog-card-detail">Detail</button>
+              <button class="catalog-card-buy">Buy</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 ">
+            <div id="items-threeH" class="catalog-card catalog-card-hiden">
+              <div class="catalog-card-img center"><img src="img/catalog/3.png" alt=""></div>
+              <div class="catalog-card-title text-center">Sticker with your logo personal design</div>
+              <div class="catalog-card-dstitle text-center">minimum order from 5 pieces</div>
+              <div class="catalog-card-price text-center">15 €</div>
+              <button class="catalog-card-detail">Detail</button>
+              <button class="catalog-card-buy">Buy</button>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 ">
+            <div id="items-fourH" class="catalog-card catalog-card-hiden">
+              <div class="catalog-card-img center"><img src="img/catalog/4.png" alt=""></div>
+              <div class="catalog-card-title text-center">Volumetric sticker with QR code</div>
+              <div class="catalog-card-price text-center">7 €</div>
+              <button class="catalog-card-detail">Detail</button>
+              <button class="catalog-card-buy">Buy</button>
+            </div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-10 ">
+            <div class="catalog-card catalog-card-hiden">
+              <div class="catalog-card-img center"><img src="img/catalog/5.png" alt=""></div>
+              <div class="catalog-card-title text-center">Volumetric sticker with QR code and your logo
+              </div>
+              <div class="catalog-card-price text-center">10 €</div>
+              <button class="catalog-card-detail">Detail</button>
+              <button class="catalog-card-buy">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="question">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center question-content">
+        <div class="col-9">
+          <div class="question-title text-center">What do you need to do to get a business card?</div>
+          <div class="question-card">
+            <div class="question-card-title">1. Checkout on the website</div>
+            <div class="question-card-text">You need to decide on the type of smart business card, add a
+              product to the cart and pay the full cost of the product (we work on a one hundred percent
+              advance payment). After successful payment, you will be asked to create your electronic
+              business card, where you can already fill in all your contact details and links to social
+              networks.</div>
+          </div>
+          <div class="question-card">
+            <div class="question-card-title">2. Design (for personal and individual business cards)</div>
+            <div class="question-card-text">Then we will contact you and discuss with you your preferences
+              for the layout and also ask you to send a photo / logo of the company to pedido@lobbox.es
+              Next, we will develop it, then we will coordinate the finished business card prototype with
+              you. After approval of the layout, we send it to print.</div>
+          </div>
+          <div class="question-card">
+            <div class="question-card-title">3. Manufacturing and programming</div>
+            <div class="question-card-text">On average, the production and programming time is up to 7 days
+              from the moment the layout is approved. The universal business card is sent the next day
+              after ordering.</div>
+          </div>
+          <div class="question-card">
+            <div class="question-card-title">4. Delivery</div>
+            <div class="question-card-text">Within Spain (2-3 days): 2€ <br>
+              Around the world (10-14 days): Calculated individually depending on the place of delivery
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="connect">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="connect-content ">
+            <div class="connect-title text-center">Still have questions?</div>
+            <div class="connect-description text-center">Fill out the form, our manager will contact you and
+              answer all questions</div>
+            <form class="form" action="#">
+              <input type="text" class="input" placeholder="Name:">
+              <input type="text" class="input" placeholder="+44 99-9999-99999">
+              <input type="text" class="input" placeholder="Here you can leave your question">
+              <button class="form-button">Send</button>
+            </form>
+            <div id="faq" class="connect-info text-center">Frequently Asked Questions [FAQ]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <!-- 1 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class="justify-content-center ">
+          <div class="faq-card faq-card-one ">
+            <div onclick="openText('first')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">What smartphones are compatible with CF. Business Card? Do I
+                need an app?</div>
+              <img class="faq-plus-first" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="first" class="faq-card-text ">
+              <p>Almost all smartphones with Android operating system older than 2014 are compatible with
+                CF business card scanning. No special apps are required for Android devices. Typically,
+                Android's nfc reader is located in the center of the back cover of the phone. Before
+                use, you need to enable the nfc function. Scanning a QR code with a camera is also
+                supported.</p>
+              <p><span class="faq-link">IOS</span> - iPhone XS, XS Max, XR, 11, 11 Pro, 11 Pro Max, 12, 12
+                Pro, 12 Pro Max are compatible with CF Business Card and no special apps required. For
+                these models, the nfc reader is located to the right of the rear camera. The QR code can
+                be read through the smartphone camera.</p>
+              <p>
+                Earlier models of iPhone X, iPhone 8 (plus), iPhone 7 (plus), iPhone SE and iPhone 6S
+                (plus) with 14 IOS installed can read the CF.card signal via the built-in NFC reader,
+                which must be added to the control center. Also for these iPhone models (except SE and
+                6S), if 14 IOS is not installed, you can download a special application. A link to
+                additional software is sent upon request. And iPhone 6, 5, 4, etc. support scanning a QR
+                code, which also leads to an electronic business card, through a smartphone camera or
+                special applications for scanning a QR code.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class=" ">
+          <div class="faq-card">
+            <div onclick="openText('second')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">What information can be programmed into a smart business card?
+              </div>
+              <img class="faq-plus-second" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="second" class="faq-card-text ">
+              <p><span class="faq-link">Contact information: name,</span> place of work, position, 2 phone
+                numbers, 2 e-mail
+                <span class="faq-link">Links to external resources:</span>Links to your sites, news
+                resources or any other social. network <br>
+                <span class="faq-link">Links to profiles on social networks:</span> Instagram, Facebook,
+                VK, LinkedIn, YouTube, WhatsApp, Telegram, etc. <br>
+                Geolocation: You can also share your location
+              </p>
+              <p>
+                Earlier models of iPhone X, iPhone 8 (plus), iPhone 7 (plus), iPhone SE and iPhone 6S
+                (plus) with 14 IOS installed can read the CF.card signal via the built-in NFC reader,
+                which must be added to the control center. Also for these iPhone models (except SE and
+                6S), if 14 IOS is not installed, you can download a special application. A link to
+                additional software is sent upon request. And iPhone 6, 5, 4, etc. support scanning a QR
+                code, which also leads to an electronic business card, through a smartphone camera or
+                special applications for scanning a QR code.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class=" ">
+          <div class="faq-card">
+            <div onclick="openText('three')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">Can I change my details?</div>
+              <img class="faq-plus-three" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="three" class="faq-card-text">
+              <p>Yes, each owner of a smart business card has access to a personal account, where you can
+                change all information remotely and at any time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 4 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class="">
+          <div class="faq-card">
+            <div onclick="openText('four')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">What magic is used to transfer information to the phone? NFC!
+              </div>
+              <img class="faq-plus-four" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="four" class="faq-card-text">
+              <p>It's all about the phone, which generates a magnetic field around itself, and when it
+                hits, an induction current appears on the antenna of the business card. The current is
+                collected in a capacitor and powers the microcircuit. A smart business card gives an
+                answer to a reader (in particular, a phone) through the same antenna, transmitting the
+                information recorded in the business card. This technology is called NFC (near field
+                communication). Apple / Google Pay also works on the basis of NFC. Basically, you use
+                this technology every day! And we rethought it a little and adapted it to business cards
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 5 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class="">
+          <div class="faq-card">
+            <div onclick="openText('five')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">What are the production and delivery times for CF. business
+                cards?</div>
+              <img class="faq-plus-five" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="five" class="faq-card-text">
+              <p>It's all about the phone, which generates a magnetic field around itself, and when it
+                hits, an induction current appears on the antenna of the business card. The current is
+                collected in a capacitor and powers the microcircuit. A smart business card gives an
+                answer to a reader (in particular, a phone) through the same antenna, transmitting the
+                information recorded in the business card. This technology is called NFC (near field
+                communication). Apple / Google Pay also works on the basis of NFC. Basically, you use
+                this technology every day! And we rethought it a little and adapted it to business cards
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 6 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class="">
+          <div class="faq-card">
+            <div onclick="openText('sixth')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">What are the production and delivery times for CF. business
+                cards?</div>
+              <img class="faq-plus-sixth" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="sixth" class="faq-card-text">
+              <p>The production of standard models usually takes up to 5 business days. The exact time is
+                discussed with the manager individually when placing an order.</p>
+              <p>It can take up to 7 business days to create a custom CF. business card from the moment
+                the layout is approved by the designer.</p>
+              <p>Standard delivery time is 2-3 days in Spain; 10-14 business days worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 7 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class="">
+          <div class="faq-card">
+            <div onclick="openText('seventh')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">Can the chip get demagnetized?</div>
+              <img class="faq-plus-seventh" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="seventh" class="faq-card-text">
+              <p>The manufacturer of our NFC chips gives an unlimited warranty for their chips, but if the
+                chip suddenly gets demagnetized, we will make a new business card for you!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 8 -->
+    <div class="faq-content">
+      <div class="d-flex justify-content-center">
+        <div class="">
+          <div class="faq-card">
+            <div onclick="openText('eighth')" class="faq-card-up d-flex justify-content-between">
+              <div class="faq-card-title">How else can I share my electronic profile?</div>
+              <img class="faq-plus-eighth" src="img/footer/Plusbutton.png" alt="">
+            </div>
+            <div id="eighth" class="faq-card-text">
+              <p>Our users can share their electronic profile via NFC, QR code, save to the Wallet app.
+                You can also share your profile by sending a link to it on any social network / post it
+                in the description, or using email / AirDrop / regular message</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid">
+      <div class="footer-content-up ">
+        <div class="footer-content-up-img"><img src="img/footer/1.png" alt=""></div>
+        <div class="footer-content-up-img footer-content-up-img-social">
+          <a href=""><img src="img/footer/WhatsApp_black.png" alt=""></a>
+          <a href=""><img src="img/footer/Vector.png" alt=""></a>
+          <a href=""><img src="img/footer/Facebook_black.png" alt=""></a>
+        </div>
+        <div class="footer-content-up-img"><a href=""><img src="img/footer/3.png" alt=""></a></div>
+        <div class="footer-content-up-img"><img src="img/footer/4.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="footer-content text-center">
+        <div class="footer-content-title">
+          <a class="footer-content-title-item">About</a>
+          <a class="footer-content-title-item">Catalog</a>
+          <a class="footer-content-title-item">FAQ</a>
+        </div>
+        <div class="footer-content-title-sub">© 2020 LOBBOX</div>
+        <button class="footer-up"><a href="#up">Up <img src="img/footer/Up arrow.png" alt=""></a></button>
+      </div>
+    </div>
+    <div class="footer-sub d-flex justify-content-between">
+      <div class="col-1"></div>
+      <div class="col-md-10 col-lg-6 footer-sub-content">
+        <div class="footer-sub-text">Test it now! 1 <span>month free</span> of charge</div>
+        <button class="footer-sub-button">Create</button>
+      </div>
+      <button onclick="closeFooter()" class="col-1 footer-sub-img"><img src="img/footer/cross.png" alt=""></button>
+    </div>
+  </footer>
+
+</body>
+
+</html>

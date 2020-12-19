@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hello, world!</title>
+  <!-- <script src="js/generateHeader.js" defer></script> -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <section class="order">
+    <div class="container-fluid">
+        <div class="order-title">Your order</div>
+    </div>
+    <div class="confirmation">
+      <div class="container-fluid">
+        <div class="confirmation-content">
+          <div class="confirmation-img">
+            <img src="img/confirmation/Whit_option.png" alt="">
+          </div>
+          <div class="confirmation-text">
+            <div class="confirmation-title">Text name</div>
+            <div class="confirmation-description">Text name</div>
+            <div class="confirmation-check">
+
+            </div>
+          </div>
+          <div class="confirmation-close">
+            <img src="img/confirmation/Close_button.png" alt="">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <button class="confirmation-button float-right">Total:</button>
+    <div class="order-content">
+      <form class="form order-form" action="#">
+        <input type="text" class="input order-input" placeholder="Name:">
+        <input type="text" class="input order-input" placeholder="E-mail:">
+        <input type="text" class="input order-input" placeholder="Phone:">
+      </form>
+    </div>
+  </section>
+  <section class="delivery">
+    <div class="container-fluid">
+      <div class="delivery-content">
+        <div class="delivery-title order-title">Delivery</div>
+        <form class="form order-form" action="#">
+          <input type="text" class="input order-input" placeholder="City:">
+          <input type="text" class="input order-input" placeholder="Street:">
+          <div class="delivery-house d-flex justify-content-between">
+            <input type="text" class="input order-input order-input-45" placeholder="House:">
+            <input type="text" class="input order-input order-input-45" placeholder="Apartment:">
+          </div>
+        </form>
+        <div class="delivery-text">
+          <div class="delivery-pay">Payment method</div>
+          <div class=" delivery-description flex-column d-flex justify-content-end">
+            <div class="delivery-description-total">Total:</div>
+            <div class="delivery-description-total">Delivery in Spain:</div>
+            <div class="delivery-description-amount">Total amount:</div>
+          </div>
+        </div>
+        
+      </div>
+      <button class="catalog-card-buy delivery-button d-flex justify-content-center align-items-center">Order</button>
+    </div>
+  </section>
+</body>
+
+</html>

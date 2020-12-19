@@ -736,6 +736,11 @@ a:hover {
   text-decoration: none;
 }
 
+.catalog-link-active {
+  color: #990CB0;
+  text-decoration: none;
+}
+
 .catalog-card {
   width: 100%;
   display: -webkit-box;
@@ -749,6 +754,16 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 363px;
+}
+
+.catalog-card-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog-card-hiden {
+  display: none;
 }
 
 .catalog-card-img {
@@ -1115,6 +1130,128 @@ a:hover {
   height: 48px;
   margin-left: 18px;
   margin-right: 18px;
+}
+
+.order {
+  padding-top: 123px;
+}
+
+.order-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+
+.order-input {
+  border: 1px solid #990CB0;
+}
+
+.confirmation {
+  padding-top: 106px;
+  padding-bottom: 106px;
+  background: #E3E1E8;
+  -webkit-box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-content {
+  margin-left: 120px;
+  margin-right: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.confirmation-text {
+  margin-left: -300px;
+}
+
+.confirmation-img {
+  width: 322px;
+  height: 265px;
+}
+
+.confirmation-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.confirmation-description {
+  color: #929292;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.confirmation-close {
+  float: right;
+}
+
+.confirmation-button {
+  padding: 13px 140px 11px 112px;
+  background: #61077F;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-right: 130px;
+  margin-top: 30px;
+}
+
+.confirmation-button:hover {
+  -webkit-box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.order-content {
+  padding-top: 270px;
+}
+
+.order-input-45 {
+  width: 45%;
+}
+
+.delivery {
+  padding-bottom: 160px;
+}
+
+.delivery-button {
+  margin-top: 135px;
+}
+
+.delivery-pay {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 120px;
+}
+
+.delivery-description {
+  margin-top: 70px;
+  text-align: right;
+  margin-right: 230px;
+}
+
+.delivery-description-total {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 13px;
+  float: right;
+}
+
+.delivery-description-amount {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  float: right;
 }
 
 @media screen and (max-width: 1660px) {

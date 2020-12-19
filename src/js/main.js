@@ -41,7 +41,27 @@ let openText = (arg) => {
 // let closeText = (arg) => {
 //     document.querySelector('#' + arg).classList.remove('faq-card-text-active');
 // }
+//выбор карточки
+let onItemClick = (index, event) => {
+    
+  event.stopPropagation();
+  if (document.querySelectorAll('.catalog-card')[index].classList.item(1) === 'catalog-card-active') {
+    return false;
+}
 
+document.querySelectorAll('.catalog-card').forEach(element => {
+    element.classList.toggle('catalog-card-active', false);
+
+}) 
+document.querySelectorAll('.catalog-link').forEach(element => {
+    element.classList.toggle('catalog-link-active', false);
+
+})
+
+document.querySelectorAll('.catalog-link')[index].classList.add('catalog-link-active');
+document.querySelectorAll('.catalog-card')[index].classList.add('catalog-card-active');  
+return false;
+}
 
 
 
