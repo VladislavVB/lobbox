@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
@@ -28,7 +30,25 @@
       <div class="product-content row justify-content-center">
         <div class="col-10">
           <div class="catalog-card ">
-            <div class="catalog-card-img center"><img src="img/catalog/1.png" alt=""></div>
+            <div class="swiper-container gallery-top">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="swiper-slide catalog-card-img center product-card-slide"><img src="img/item/2.1.png" alt=""></div></div>
+                <div class="swiper-slide"><div class="swiper-slide catalog-card-img center product-card-slide"><img src="img/item/2.2.png" alt=""></div></div>
+                <div class="swiper-slide"><div class="swiper-slide catalog-card-img center product-card-slide"><img src="img/item/2.3.png" alt=""></div></div>
+                
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next swiper-button-white"></div>
+              <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+            <div class="swiper-container gallery-thumbs">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide catalog-card-img center"><img src="img/item/2.1.png" alt=""></div>
+                <div class="swiper-slide catalog-card-img center"><img src="img/item/2.2.png" alt=""></div>
+                <div class="swiper-slide catalog-card-img center"><img src="img/item/2.3.png" alt=""></div>
+                
+              </div>
+            </div>
             <div class="catalog-card-title ">NFC stickero</div>
             <div class="product-card-descripton">Vendor code: NFCs </div>
             <div class="catalog-card-price ">5 €</div>
@@ -53,6 +73,10 @@
       </div>
     </div>
   </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
