@@ -1254,6 +1254,14 @@ a:hover {
   float: right;
 }
 
+.confirmation-img img {
+  width: 100%;
+}
+
+.confirmation-close img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1660px) {
   .header-card {
     font-size: 40px;
@@ -1270,6 +1278,12 @@ a:hover {
   .faq-card-text {
     margin-left: 30px;
     margin-right: 30px;
+  }
+  .delivery-description {
+    margin-right: 10px;
+  }
+  .confirmation-text {
+    margin-left: 1px;
   }
 }
 
@@ -1308,6 +1322,44 @@ a:hover {
   }
   .header-content-text-title {
     font-size: 100px;
+  }
+  .order-title {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+  .delivery-pay {
+    margin-left: 0px;
+  }
+  .confirmation-img {
+    width: 250px;
+  }
+  .confirmation-title {
+    font-size: 30px;
+  }
+  .confirmation-description {
+    font-size: 20px;
+  }
+  .confirmation-button {
+    font-size: 20px;
+  }
+  .delivery-pay {
+    font-size: 30px;
+  }
+  .delivery-description-total {
+    font-size: 25px;
+  }
+  .delivery-description-amount {
+    font-size: 25px;
+  }
+  .catalog-card-buy {
+    font-size: 20px;
+  }
+  .confirmation-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .confirmation-button {
+    margin-right: 10px;
   }
 }
 
@@ -1679,6 +1731,29 @@ a:hover {
   }
   .faq-card {
     width: 300px;
+  }
+  .confirmation-img {
+    width: 150px;
+  }
+  .confirmation-close {
+    width: 25px;
+  }
+  .order-content {
+    padding-top: 100px;
+  }
+  .order {
+    padding-top: 30px;
+  }
+  .confirmation {
+    padding-bottom: 6px;
+  }
+  .confirmation-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
