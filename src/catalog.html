@@ -18,8 +18,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Hello, world!</title>
-  <!-- <script src="js/generateHeader.js" defer></script> -->
-  <script src="js/main.js" defer></script>
+  
+  
 </head>
 
 <body>
@@ -28,12 +28,12 @@
       <div class="catalog-content">
         <div class="catalog-title text-center">Catalog</div>
         <div class="catalog-links">
-          <a class="catalog-link" href="#everything">Everything </a>
-          <a onclick="onItemClick(0, event)" class="catalog-link catalog-link-active" href="#logo">Chip with our logo </a>
-          <a onclick="onItemClick(1, event)" class="catalog-link" href="#nfs">NFC sticker <br></a>
-          <a onclick="onItemClick(2, event)" class="catalog-link" href="#personal">Sticker with your personal design <br></a>
-          <a onclick="onItemClick(3, event)" class="catalog-link" href="#qrcode">Volumetric sticker with QR code</a>
-          <a onclick="onItemClick(4, event)" class="catalog-link" href="#qrlogo">Volumetric sticker with QR code and your logo</a>
+          <a onclick="onItemClick(-1, event)" class="catalog-link" href="#">Everything </a>
+          <a onclick="onItemClick(0, event)" class="catalog-link catalog-link-active" href="#">Chip with our logo </a>
+          <a onclick="onItemClick(1, event)" class="catalog-link" href="#">NFC sticker <br></a>
+          <a onclick="onItemClick(2, event)" class="catalog-link" href="#">Sticker with your personal design <br></a>
+          <a onclick="onItemClick(3, event)" class="catalog-link" href="#">Volumetric sticker with QR code</a>
+          <a onclick="onItemClick(4, event)" class="catalog-link" href="#">Volumetric sticker with QR code and your logo</a>
         </div>
         <!-- 1 -->
         <div class="row d-flex justify-content-center">
@@ -50,7 +50,7 @@
         <!-- 2 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-secondH" class="catalog-card catalog-card-hiden">
+            <div id="items-secondH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/2.png" alt=""></div>
               <div class="catalog-card-title text-center">NFC sticker</div>
               <div class="catalog-card-price text-center">5 €</div>
@@ -62,7 +62,7 @@
         <!-- 3 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-threeH" class="catalog-card catalog-card-hiden">
+            <div id="items-threeH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/3.png" alt=""></div>
               <div class="catalog-card-title text-center">Sticker with your logo personal design</div>
               <div class="catalog-card-dstitle text-center">minimum order from 5 pieces</div>
@@ -75,7 +75,7 @@
         <!-- 4 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-fourH" class="catalog-card catalog-card-hiden">
+            <div id="items-fourH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/4.png" alt=""></div>
               <div class="catalog-card-title text-center">Volumetric sticker with QR code</div>
               <div class="catalog-card-price text-center">7 €</div>
@@ -87,7 +87,7 @@
         <!-- 5 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div class="catalog-card catalog-card-hiden">
+            <div id="items-fiveH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/5.png" alt=""></div>
               <div class="catalog-card-title text-center">Volumetric sticker with QR code and your logo
               </div>
@@ -379,7 +379,7 @@
       <button onclick="closeFooter()" class="col-1 footer-sub-img"><img src="img/footer/cross.png" alt=""></button>
     </div>
   </footer>
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>

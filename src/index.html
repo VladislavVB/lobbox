@@ -163,17 +163,17 @@
       <div class="catalog-content">
         <div class="catalog-title text-center">Catalog</div>
         <div class="catalog-links">
-          <a class="catalog-link" href="#everything">Everything </a>
-          <a class="catalog-link" href="#logo">Chip with our logo </a>
-          <a class="catalog-link" href="#nfs">NFC sticker <br></a>
-          <a class="catalog-link" href="#personal">Sticker with your personal design <br></a>
-          <a class="catalog-link" href="#qrcode">Volumetric sticker with QR code</a>
-          <a class="catalog-link" href="#qrlogo">Volumetric sticker with QR code and your logo</a>
+          <a onclick="onItemClick(-1, event)" class="catalog-link" href="#">Everything </a>
+          <a onclick="onItemClick(0, event)" class="catalog-link catalog-link-active" href="#">Chip with our logo </a>
+          <a onclick="onItemClick(1, event)" class="catalog-link" href="#">NFC sticker <br></a>
+          <a onclick="onItemClick(2, event)" class="catalog-link" href="#">Sticker with your personal design <br></a>
+          <a onclick="onItemClick(3, event)" class="catalog-link" href="#">Volumetric sticker with QR code</a>
+          <a onclick="onItemClick(4, event)" class="catalog-link" href="#">Volumetric sticker with QR code and your logo</a>
         </div>
         <!-- 1 -->
-        <div id="logo" class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div class="catalog-card ">
+            <div id="items-firstH" class="catalog-card catalog-card-active">
               <div class="catalog-card-img center"><img src="img/catalog/1.png" alt=""></div>
               <div class="catalog-card-title text-center">Chip with our logo</div>
               <div class="catalog-card-price text-center">5 €</div>
@@ -183,9 +183,9 @@
           </div>
         </div>
         <!-- 2 -->
-        <div id="nfs" class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div class="catalog-card ">
+            <div id="items-secondH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/2.png" alt=""></div>
               <div class="catalog-card-title text-center">NFC sticker</div>
               <div class="catalog-card-price text-center">5 €</div>
@@ -195,9 +195,9 @@
           </div>
         </div>
         <!-- 3 -->
-        <div id="personal" class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div class="catalog-card ">
+            <div id="items-threeH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/3.png" alt=""></div>
               <div class="catalog-card-title text-center">Sticker with your logo personal design</div>
               <div class="catalog-card-dstitle text-center">minimum order from 5 pieces</div>
@@ -208,9 +208,9 @@
           </div>
         </div>
         <!-- 4 -->
-        <div id="qrcode" class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div class="catalog-card ">
+            <div id="items-fourH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/4.png" alt=""></div>
               <div class="catalog-card-title text-center">Volumetric sticker with QR code</div>
               <div class="catalog-card-price text-center">7 €</div>
@@ -220,11 +220,12 @@
           </div>
         </div>
         <!-- 5 -->
-        <div id="qrlogo" class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div class="catalog-card ">
+            <div id="items-fiveH" class="catalog-card ">
               <div class="catalog-card-img center"><img src="img/catalog/5.png" alt=""></div>
-              <div class="catalog-card-title text-center">Volumetric sticker with QR code and your logo</div>
+              <div class="catalog-card-title text-center">Volumetric sticker with QR code and your logo
+              </div>
               <div class="catalog-card-price text-center">10 €</div>
               <button class="catalog-card-detail">Detail</button>
               <button class="catalog-card-buy">Buy</button>

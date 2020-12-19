@@ -41,26 +41,33 @@ let openText = (arg) => {
 // let closeText = (arg) => {
 //     document.querySelector('#' + arg).classList.remove('faq-card-text-active');
 // }
+
 //выбор карточки
 let onItemClick = (index, event) => {
-    
-  event.stopPropagation();
-  if (document.querySelectorAll('.catalog-card')[index].classList.item(1) === 'catalog-card-active') {
-    return false;
-}
+    let allCards =  document.querySelectorAll('.catalog-card');
+    let allLinks = document.querySelectorAll('.catalog-link');
+    if(index === -1) {
+        allCards.forEach((res) => {
+            console.log(res);
+            res.classList.add('catalog-card-active');
+        })
+        allLinks.forEach((res) => {
+            res.classList.remove('catalog-link-active');
+        })
+        console.log(allLinks[index]);
+        allLinks[0].classList.add('catalog-link-active');
+        return
+    }
 
-document.querySelectorAll('.catalog-card').forEach(element => {
-    element.classList.toggle('catalog-card-active', false);
-
-}) 
-document.querySelectorAll('.catalog-link').forEach(element => {
-    element.classList.toggle('catalog-link-active', false);
-
-})
-
-document.querySelectorAll('.catalog-link')[index].classList.add('catalog-link-active');
-document.querySelectorAll('.catalog-card')[index].classList.add('catalog-card-active');  
-return false;
+    event.stopPropagation();
+    allCards.forEach((res, i) => {
+        res.classList.remove('catalog-card-active')
+    })
+    allLinks.forEach((res) => {
+        res.classList.remove('catalog-link-active')
+    })
+    allCards[index].classList.add('catalog-card-active')
+    allLinks[index+1].classList.add('catalog-link-active')
 }
 
 
