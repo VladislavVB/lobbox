@@ -843,6 +843,14 @@ a:hover {
           box-shadow: 6px 8px 12px rgba(10, 10, 10, 0.25);
 }
 
+.catalog-card-detail {
+  padding: 10px;
+}
+
+.catalog-card-buy {
+  padding: 10px;
+}
+
 .catalog-card-img img {
   width: 60%;
   height: 90%;
@@ -850,6 +858,14 @@ a:hover {
 
 .catalog-img img {
   width: 45%;
+}
+
+.catalog-card a {
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.catalog-card a:hover {
+  color: rgba(255, 255, 255, 0.89);
 }
 
 .question {
@@ -1190,6 +1206,13 @@ a:hover {
   height: 265px;
 }
 
+.confirmation-img-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #929292;
+}
+
 .confirmation-title {
   font-family: 'Quicksand', sans-serif;
   font-weight: 500;
@@ -1448,7 +1471,7 @@ a:hover {
 .create {
   background: -webkit-gradient(linear, left top, right top, from(#190D71), to(#770583));
   background: linear-gradient(90deg, #190D71 0%, #770583 100%);
-  padding-bottom: 50px;
+  padding-bottom: 700px;
 }
 
 .create-logo {
@@ -1744,9 +1767,6 @@ a:hover {
   .delivery-description-amount {
     font-size: 25px;
   }
-  .catalog-card-buy {
-    font-size: 20px;
-  }
   .confirmation-content {
     margin-left: 0;
     margin-right: 0;
@@ -1849,11 +1869,9 @@ a:hover {
     font-size: 40px;
   }
   .catalog-card-detail {
-    font-size: 30px;
     width: 300px;
   }
   .catalog-card-buy {
-    font-size: 30px;
     width: 300px;
   }
   .question-title {
@@ -2112,10 +2130,12 @@ a:hover {
   }
   .catalog-card-detail {
     font-size: 20px;
+    padding-top: 20px;
     height: 70px;
   }
   .catalog-card-buy {
     font-size: 20px;
+    padding-top: 20px;
     height: 70px;
   }
   .question-title {
@@ -2255,6 +2275,12 @@ a:hover {
   .slide-text {
     font-size: 20px !important;
   }
+  .create-password {
+    font-size: 20px;
+  }
+  .create-now {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -2281,9 +2307,11 @@ a:hover {
 
 @media screen and (max-width: 500px) {
   .catalog-card-detail {
+    font-size: 20px;
     width: 250px;
   }
   .catalog-card-buy {
+    font-size: 20px;
     width: 250px;
   }
   .faq-card-text {
