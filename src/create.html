@@ -21,7 +21,6 @@
   <!-- <script src="js/generateHeader.js" defer></script> -->
   <script src="js/main.js" defer></script>
 </head>
-
 <body>
   <section class="create">
     <div class="container-fluid">
@@ -29,8 +28,16 @@
         <div class="col-11 create-content">
           <div class="create-logo text-center"><img src="img/header/logo up.png" alt=""></div>
           <form class="create-form" action="#">
-            <input type="text" class="input create-input" placeholder="E-mail:">
-            <input type="text" class="input create-input" placeholder="Password:">
+
+            <div class="input create-input">
+              <input  id="password-input" type="text" name="password" class="create-width" placeholder="E-mail:">
+              <a href="#" class="password-dog"></a>
+            </div>
+            <div class="input password create-input">
+              <input type="password" id="password-input" name="password" class="create-width" placeholder="Password:">
+              <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+            </div>
+            
           </form>
           <a class="create-password text-center">Forget Password?</a>
           <button class="create-button text-center">Log in</button>

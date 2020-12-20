@@ -27,6 +27,8 @@
 .product-description span
     color: rgba(91, 10, 120, 1)
     font-weight: 400
+.product-img img
+    width: 55%
 //слайдер 
 .swiper-container
     width: 100%
@@ -47,7 +49,7 @@
     height: 20%
     box-sizing: border-box
     padding: 25px 0
-
+    padding-bottom: 70px
 .gallery-thumbs .swiper-slide
     width: 25%
     height: 100%
@@ -67,4 +69,27 @@
     flex-direction: column
     justify-content: center
     margin-bottom: 363px
-    
+// .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after
+//     background: url('../img/product/Next.png') 0 0 no-repeat !important
+//     height: 30px
+//     width: 30px
+//     z-index: 10
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after
+    display: none
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after
+    display: none
+.slide-button-next
+    margin-right: 190px
+.slide-button-back
+    margin-left: 190px
+.gallery-thumbs .swiper-slide-thumb-active
+    background: url('../img/item/ok.png') 10% 15% no-repeat
+    color: rgba(91, 10, 120, 1)
+.catalog-card-img
+    position: relative
+.slide-text
+    position: absolute
+    bottom: -80px
+    font-size: 30px
+    font-family: 'Quicksand', sans-serif
+    font-weight: 500

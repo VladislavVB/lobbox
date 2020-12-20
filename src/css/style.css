@@ -848,6 +848,10 @@ a:hover {
   height: 90%;
 }
 
+.catalog-img img {
+  width: 45%;
+}
+
 .question {
   background: url("../img/question/bg.png") top left/contain no-repeat;
   padding-top: 132px;
@@ -1108,7 +1112,7 @@ a:hover {
 .footer-sub-button {
   background: #140E60;
   border-radius: 10px;
-  color: rgba(255, 255, 255, 0.89);
+  color: rgba(255, 255, 255, 0.89) !important;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 24px;
@@ -1136,6 +1140,10 @@ a:hover {
   height: 48px;
   margin-left: 18px;
   margin-right: 18px;
+}
+
+.footer-sub-button a {
+  color: rgba(255, 255, 255, 0.89);
 }
 
 .order {
@@ -1224,6 +1232,29 @@ a:hover {
   width: 45%;
 }
 
+.order-input {
+  color: #000000 !important;
+  position: relative;
+}
+
+.order-in {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.order-control {
+  position: absolute;
+  display: inline-block;
+  top: 52px;
+  right: 85px;
+  width: 75px;
+  height: 75px;
+  background: url("../img/item/loop.png") 0 0 no-repeat;
+}
+
 .delivery {
   padding-bottom: 160px;
 }
@@ -1308,6 +1339,10 @@ a:hover {
   font-weight: 400;
 }
 
+.product-img img {
+  width: 55%;
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -1341,6 +1376,7 @@ a:hover {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 25px 0;
+  padding-bottom: 70px;
 }
 
 .gallery-thumbs .swiper-slide {
@@ -1376,6 +1412,39 @@ a:hover {
   margin-bottom: 363px;
 }
 
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+  display: none;
+}
+
+.slide-button-next {
+  margin-right: 190px;
+}
+
+.slide-button-back {
+  margin-left: 190px;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  background: url("../img/item/ok.png") 10% 15% no-repeat;
+  color: #5b0a78;
+}
+
+.catalog-card-img {
+  position: relative;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: -80px;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
 .create {
   background: -webkit-gradient(linear, left top, right top, from(#190D71), to(#770583));
   background: linear-gradient(90deg, #190D71 0%, #770583 100%);
@@ -1402,6 +1471,7 @@ a:hover {
   background-color: transparent;
   border: 1px solid #EFEFEF;
   color: #EFEFEF;
+  position: relative;
 }
 
 .create-password {
@@ -1486,6 +1556,48 @@ a:hover {
   margin-bottom: 500px;
 }
 
+.create-width {
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.89);
+  outline: none;
+}
+
+.confirmation-minplus {
+  height: 47px;
+  width: 52px;
+}
+
+.confirmation-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.confirmation-check-totlal {
+  margin-left: 44px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.confirmation-check-value {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.confirmation-check-minplus img {
+  width: 100%;
+  height: 100%;
+}
+
 .create-now a {
   color: #990CB0;
 }
@@ -1496,6 +1608,34 @@ a:hover {
 
 .create-qr img {
   height: 100%;
+}
+
+.create-button-choose a {
+  color: #990CB0;
+}
+
+.password-control {
+  position: absolute;
+  display: inline-block;
+  top: 90px;
+  right: 85px;
+  width: 50px;
+  height: 30px;
+  background: url("../img/item/passno.png") 0 0 no-repeat;
+}
+
+.password-dog {
+  position: absolute;
+  display: inline-block;
+  top: 70px;
+  right: 70px;
+  width: 70px;
+  height: 70px;
+  background: url("../img/item/dog.png") 0 0 no-repeat;
+}
+
+.view {
+  background: url("../img/item/pass.png") 0 0 no-repeat !important;
 }
 
 @media screen and (max-width: 1920px) {
@@ -1622,6 +1762,16 @@ a:hover {
   }
   .gallery-thumbs {
     margin-top: 70px;
+  }
+  .confirmation-check-minplus {
+    height: 20px;
+    width: 20px;
+  }
+  .confirmation-check-value {
+    font-size: 30px;
+  }
+  .confirmation-check-totlal {
+    font-size: 30px;
   }
 }
 
@@ -1832,6 +1982,32 @@ a:hover {
   .catalog-card-img {
     height: 500px;
   }
+  .password-dog {
+    top: 20px;
+    right: 20px;
+    background: url(../img/item/dogsm.png) 0 0 no-repeat;
+  }
+  .password-control {
+    top: 30px;
+    right: 30px;
+    background: url(../img/item/passnosm.png) 0 0 no-repeat;
+  }
+  .order-control {
+    top: 25px;
+    right: 25px;
+    background: url("../img/item/loopsm.png") 0 0 no-repeat;
+  }
+  .view {
+    top: 30px;
+    right: 30px;
+    background: url("../img/item/passsm.png") 0 0 no-repeat !important;
+  }
+  .slide-button-next {
+    margin-right: 100px;
+  }
+  .slide-button-back {
+    margin-left: 100px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -1843,6 +2019,16 @@ a:hover {
   }
   .gallery-thumbs {
     margin-top: 50px;
+  }
+  .slide-button {
+    height: 50px;
+    width: 50px;
+  }
+  .slide-button-next {
+    margin-right: 60px;
+  }
+  .slide-button-back {
+    margin-left: 60px;
   }
 }
 
@@ -2044,7 +2230,30 @@ a:hover {
     font-size: 18px;
   }
   .create {
-    padding-bottom: 0;
+    padding-bottom: 150px;
+  }
+  .order-control {
+    top: 15px;
+    right: 0px;
+    background: url("../img/item/loopsm.png") 0 0 no-repeat;
+  }
+  .password-dog {
+    top: 10px;
+    right: 20px;
+    background: url(../img/item/dogsm.png) 0 0 no-repeat;
+  }
+  .password-control {
+    top: 20px;
+    right: 30px;
+    background: url(../img/item/passnosm.png) 0 0 no-repeat;
+  }
+  .view {
+    top: 20px;
+    right: 30px;
+    background: url("../img/item/passsm.png") 0 0 no-repeat !important;
+  }
+  .slide-text {
+    font-size: 20px !important;
   }
 }
 
@@ -2057,6 +2266,16 @@ a:hover {
   }
   .gallery-thumbs {
     margin-top: 0px;
+  }
+  .slide-button {
+    height: 30px;
+    width: 30px;
+  }
+  .slide-button-next {
+    margin-right: 20px;
+  }
+  .slide-button-back {
+    margin-left: 30px;
   }
 }
 
@@ -2120,6 +2339,15 @@ a:hover {
   .gallery-thumbs .swiper-slide {
     margin-left: 5px;
   }
+  .confirmation-check-value {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .confirmation-check-totlal {
+    font-size: 20px;
+    margin-left: 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -2134,6 +2362,21 @@ a:hover {
   }
   .gallery-thumbs {
     margin-top: -60px;
+  }
+  .order-control {
+    top: 15px;
+    right: -20px;
+    background: url("../img/item/loopsm.png") 0 0 no-repeat;
+  }
+  .password-control {
+    top: 20px;
+    right: -10px;
+    background: url(../img/item/passnosm.png) 0 0 no-repeat;
+  }
+  .password-dog {
+    top: 10px;
+    right: -20px;
+    background: url(../img/item/dogsm.png) 0 0 no-repeat;
   }
 }
 /*# sourceMappingURL=style.css.map */

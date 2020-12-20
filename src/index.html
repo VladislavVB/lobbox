@@ -28,7 +28,7 @@
           <a onclick="closeMenu()" class="menu-window-item-cross"><img src="img/header/cross.png" alt=""></a>
           <a href="catalog.html" onclick="closeMenu()" class="menu-window-item text-center">Catalog</a>
           <a href="#faq" onclick="closeMenu()" class="menu-window-item text-center">FAQ</a>
-          <a href="#" onclick="closeMenu()" class="menu-window-item text-center">Create</a>
+          <a href="create.html" onclick="closeMenu()" class="menu-window-item text-center">Create</a>
           <div class="menu-window-social">
             <a class="menu-window-social-img"><img src="img/header/1.png" alt=""></a>
             <a class="menu-window-social-img"><img src="img/header/2.png" alt=""></a>
@@ -163,8 +163,8 @@
       <div class="catalog-content">
         <div class="catalog-title text-center">Catalog</div>
         <div class="catalog-links">
-          <a onclick="onItemClick(-1, event)" class="catalog-link" href="#">Everything </a>
-          <a onclick="onItemClick(0, event)" class="catalog-link catalog-link-active" href="#">Chip with our logo </a>
+          <a onclick="onItemClick(-1, event)" class="catalog-link catalog-link-active" href="#">Everything </a>
+          <a onclick="onItemClick(0, event)" class="catalog-link " href="#">Chip with our logo </a>
           <a onclick="onItemClick(1, event)" class="catalog-link" href="#">NFC sticker <br></a>
           <a onclick="onItemClick(2, event)" class="catalog-link" href="#">Sticker with your personal design <br></a>
           <a onclick="onItemClick(3, event)" class="catalog-link" href="#">Volumetric sticker with QR code</a>
@@ -174,19 +174,19 @@
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
             <div id="items-firstH" class="catalog-card catalog-card-active">
-              <div class="catalog-card-img center"><img src="img/catalog/1.png" alt=""></div>
+              <div class="catalog-card-img catalog-img center"><img src="img/catalog/1.png" alt=""></div>
               <div class="catalog-card-title text-center">Chip with our logo</div>
               <div class="catalog-card-price text-center">5 €</div>
-              <button class="catalog-card-detail">Detail</button>
-              <button class="catalog-card-buy">Buy</button>
+              <button class="catalog-card-detail"><a href="item_1.html">Detail</a></button>
+              <button class="catalog-card-buy"><a href="checkout.html">Buy</a></button>
             </div>
           </div>
         </div>
         <!-- 2 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-secondH" class="catalog-card ">
-              <div class="catalog-card-img center"><img src="img/catalog/2.png" alt=""></div>
+            <div id="items-secondH" class="catalog-card catalog-card-active">
+              <div class="catalog-card-img catalog-img center"><img src="img/catalog/2.png" alt=""></div>
               <div class="catalog-card-title text-center">NFC sticker</div>
               <div class="catalog-card-price text-center">5 €</div>
               <button class="catalog-card-detail">Detail</button>
@@ -197,8 +197,8 @@
         <!-- 3 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-threeH" class="catalog-card ">
-              <div class="catalog-card-img center"><img src="img/catalog/3.png" alt=""></div>
+            <div id="items-threeH" class="catalog-card catalog-card-active">
+              <div class="catalog-card-img catalog-img center"><img src="img/catalog/3.png" alt=""></div>
               <div class="catalog-card-title text-center">Sticker with your logo personal design</div>
               <div class="catalog-card-dstitle text-center">minimum order from 5 pieces</div>
               <div class="catalog-card-price text-center">15 €</div>
@@ -210,8 +210,8 @@
         <!-- 4 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-fourH" class="catalog-card ">
-              <div class="catalog-card-img center"><img src="img/catalog/4.png" alt=""></div>
+            <div id="items-fourH" class="catalog-card catalog-card-active">
+              <div class="catalog-card-img catalog-img center"><img src="img/catalog/4.png" alt=""></div>
               <div class="catalog-card-title text-center">Volumetric sticker with QR code</div>
               <div class="catalog-card-price text-center">7 €</div>
               <button class="catalog-card-detail">Detail</button>
@@ -222,8 +222,8 @@
         <!-- 5 -->
         <div class="row d-flex justify-content-center">
           <div class="col-10 ">
-            <div id="items-fiveH" class="catalog-card ">
-              <div class="catalog-card-img center"><img src="img/catalog/5.png" alt=""></div>
+            <div id="items-fiveH" class="catalog-card catalog-card-active">
+              <div class="catalog-card-img catalog-img center"><img src="img/catalog/5.png" alt=""></div>
               <div class="catalog-card-title text-center">Volumetric sticker with QR code and your logo
               </div>
               <div class="catalog-card-price text-center">10 €</div>
@@ -450,7 +450,7 @@
       <div class="col-1"></div>
       <div class="col-md-10 col-lg-6 footer-sub-content">
         <div class="footer-sub-text">Test it now! 1 <span>month free</span> of charge</div>
-        <button class="footer-sub-button">Create</button>
+        <button class="footer-sub-button"><a href="create-chose.html">Create</a></button>
       </div>
       <button onclick="closeFooter()" class="col-1 footer-sub-img"><img src="img/footer/cross.png" alt=""></button>
     </div>
