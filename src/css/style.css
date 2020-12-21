@@ -1661,6 +1661,371 @@ a:hover {
   background: url("../img/item/pass.png") 0 0 no-repeat !important;
 }
 
+.personal {
+  background: linear-gradient(90.43deg, #1D0D72 0.32%, #740583 97.67%);
+  padding-bottom: 260px;
+}
+
+.personal-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.personal-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 370px;
+  margin-top: 170px;
+}
+
+.personal-title {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+  margin-bottom: 140px;
+}
+
+.personal-input {
+  width: 100%;
+  border: 1px solid #B0AAAA;
+  background-color: transparent;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  padding: 45px;
+  margin-bottom: 30px;
+}
+
+.personal-input-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #bdbdbd;
+}
+
+.personal-input-sub {
+  width: 100%;
+  border: 1px solid #B0AAAA;
+  background-color: transparent;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.89);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  padding: 45px;
+  margin-bottom: 50px;
+}
+
+.personal-input-sub-right {
+  margin-left: 15%;
+}
+
+.personal-input-sub-left {
+  margin-right: 15%;
+}
+
+.personal-input-sub-prom {
+  width: 43%;
+}
+
+.personal-logo img {
+  height: 100%;
+}
+
+.personal-input-sub {
+  position: relative;
+}
+
+.personal-icon-size {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: 35px;
+}
+
+.personal-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.personal-check-icon {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.personal-check-icon img {
+  height: 100%;
+}
+
+.personal-save {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #400a79;
+  background: #D4D2FF;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.personal-save:hover {
+  -webkit-box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.create-width-personal {
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.89);
+  outline: none;
+  margin-left: 60px;
+}
+
+.check-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+  margin-top: 100px;
+  margin-bottom: 170px;
+}
+
+.check-title img {
+  margin-left: 10px;
+}
+
+.account {
+  background: url("../img/reg/abstractsbg.png") top center/contain no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(9.77%, #03266A), color-stop(99.99%, #510A63), to(#6B0974));
+  background: url("../img/reg/abstractsbg.png") top center/contain no-repeat, linear-gradient(180deg, #03266A 9.77%, #510A63 99.99%, #6B0974 100%);
+  background-size: 100%;
+  padding-top: 25px;
+}
+
+.account-bg {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #BDBDBD;
+  margin-left: 200px;
+  margin-top: 230px;
+  margin-bottom: 500px;
+}
+
+.account-img {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #222224;
+  height: 680px;
+  width: 680px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  border: 26px solid #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -400px;
+}
+
+.account-name {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.account-name-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 150px;
+  color: rgba(255, 255, 255, 0.89);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.89);
+  margin-bottom: 20px;
+}
+
+.account-name-data {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 44px;
+  color: #A2A2A2;
+}
+
+.account-name-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.account-name-descriptonsub {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.account-name-skil {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 84px;
+  color: #990cb0;
+}
+
+.account-text {
+  max-width: 1300px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 53px;
+  margin-top: 130px;
+  margin-bottom: 88px;
+  color: rgba(255, 255, 255, 0.89);
+  text-align: center;
+}
+
+.account-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 140px;
+}
+
+.account-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #bdbdbd;
+  font-size: 41px;
+}
+
+.account-footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 387px;
+}
+
+.account-footer-icons {
+  height: 238px;
+  background: rgba(53, 50, 50, 0.46);
+  margin-top: -50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.account-footer-icon {
+  margin-top: -50px;
+  min-width: 249px;
+}
+
+.account-footer-icon-active {
+  margin-top: -100px;
+}
+
+.account-footer-icon-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #D4D2FF;
+  -webkit-box-shadow: 10px 12px 21px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 12px 21px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.account-footer-icon-img-active {
+  background: #B6B5CE;
+}
+
+.account-footer-icon-text {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 41px;
+}
+
+.account-footer-icons-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.account-footer-icons-second {
+  margin-top: 50px;
+}
+
+.account-footer-title-second {
+  margin-top: 90px;
+}
+
+.account-second {
+  background: url("../img/account/photobg.png") top center/contain no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(9.77%, #03266A), color-stop(99.99%, #510A63), to(#6B0974));
+  background: url("../img/account/photobg.png") top center/contain no-repeat, linear-gradient(180deg, #03266A 9.77%, #510A63 99.99%, #6B0974 100%);
+  padding-bottom: 400px;
+}
+
+.account-img img {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 1920px) {
   .catalog-card-img img {
     width: 50%;
@@ -2026,6 +2391,37 @@ a:hover {
   .slide-button-back {
     margin-left: 100px;
   }
+  .personal-title {
+    font-size: 40px;
+  }
+  .personal-logo {
+    height: 200px;
+  }
+  .check-title {
+    font-size: 40px;
+  }
+  .personal-input {
+    padding: 25px;
+    font-size: 20px;
+  }
+  .personal-input-sub {
+    padding: 25px;
+    font-size: 20px;
+  }
+  .personal-icon-size {
+    height: 20px;
+    width: 20px;
+    top: 20px;
+  }
+  .personal-check-icon {
+    height: 30px;
+  }
+  .personal-input-name {
+    font-size: 20px;
+  }
+  .personal-save {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -2047,6 +2443,9 @@ a:hover {
   }
   .slide-button-back {
     margin-left: 60px;
+  }
+  .check-title img {
+    height: 30px;
   }
 }
 
@@ -2302,6 +2701,18 @@ a:hover {
   }
   .slide-button-back {
     margin-left: 30px;
+  }
+  .personal-save {
+    width: 100%;
+  }
+  .create-width-personal {
+    margin-left: 30px;
+  }
+  .personal-icon-size {
+    top: 14px;
+  }
+  .check-title {
+    font-size: 25px;
   }
 }
 
